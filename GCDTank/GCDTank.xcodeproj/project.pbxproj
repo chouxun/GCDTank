@@ -14,6 +14,7 @@
 		CA6272A81EB094C300EC7BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6272A61EB094C300EC7BC1 /* LaunchScreen.storyboard */; };
 		CA6272B31EB094C300EC7BC1 /* GCDTankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6272B21EB094C300EC7BC1 /* GCDTankTests.swift */; };
 		CA6272BE1EB094C300EC7BC1 /* GCDTankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6272BD1EB094C300EC7BC1 /* GCDTankUITests.swift */; };
+		CA6272D21EB0A11900EC7BC1 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6272D11EB0A11900EC7BC1 /* Macro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CA6272B91EB094C300EC7BC1 /* GCDTankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDTankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6272BD1EB094C300EC7BC1 /* GCDTankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDTankUITests.swift; sourceTree = "<group>"; };
 		CA6272BF1EB094C300EC7BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6272D11EB0A11900EC7BC1 /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CA6272911EB094C200EC7BC1 = {
 			isa = PBXGroup;
 			children = (
+				CA6272CE1EB0A0FB00EC7BC1 /* Classes */,
 				CA62729C1EB094C300EC7BC1 /* GCDTank */,
 				CA6272B11EB094C300EC7BC1 /* GCDTankTests */,
 				CA6272BC1EB094C300EC7BC1 /* GCDTankUITests */,
@@ -123,6 +126,30 @@
 				CA6272BF1EB094C300EC7BC1 /* Info.plist */,
 			);
 			path = GCDTankUITests;
+			sourceTree = "<group>";
+		};
+		CA6272CE1EB0A0FB00EC7BC1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA6272CF1EB0A0FB00EC7BC1 /* Define */,
+				CA6272D01EB0A0FB00EC7BC1 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CA6272CF1EB0A0FB00EC7BC1 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				CA6272D11EB0A11900EC7BC1 /* Macro.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		CA6272D01EB0A0FB00EC7BC1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA6272A01EB094C300EC7BC1 /* ViewController.swift in Sources */,
+				CA6272D21EB0A11900EC7BC1 /* Macro.swift in Sources */,
 				CA62729E1EB094C300EC7BC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

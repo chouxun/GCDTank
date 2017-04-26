@@ -29,10 +29,11 @@ class ViewController: UIViewController {
         
         tank1.backgroundColor = .black
         tank2.backgroundColor = .red
-        tank1.frame = self.view.frame
+        tank1.frame = CGRect(x:10, y:150, width:MAIN_SCREEN_WIDTH / 10, height:MAIN_SCREEN_HRIGHT / 10)
+        tank2.frame = CGRect(x: 150, y: 10, width: MAIN_SCREEN_WIDTH / 10, height: MAIN_SCREEN_HRIGHT / 10)
         
         self.view.addSubview(tank1)
-//        tank2.frame = CGRectMake()
+        self.view.addSubview(tank2)
         
     }
 
